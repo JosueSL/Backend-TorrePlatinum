@@ -1,0 +1,50 @@
+{
+  "name": "Quantity",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID": {
+      "type": "number",
+      "id": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Base": {
+      "type": "string",
+      "required": true
+    },
+    "Unit": {
+      "type": "string",
+      "required": true
+    },
+    "Phase": {
+      "type": "string",
+      "required": true
+    },
+    "Type": {
+      "type": "string",
+      "required": true
+    },
+    "Direction": {
+      "type": "string",
+      "required": true
+    },
+    "Misc": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Usuario",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID": {
+      "type": "number",
+      "id": true
+    },
+    "usuario": {
+      "type": "string",
+      "required": true
+    },
+    "contrasena": {
+      "type": "string",
+      "required": true
+    },
+    "idTipo": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

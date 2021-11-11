@@ -1,0 +1,30 @@
+{
+  "name": "Consumo",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID": {
+      "type": "number",
+      "id": true
+    },
+    "Consumo": {
+      "type": "number",
+      "required": true
+    },
+    "Fecha": {
+      "type": "date",
+      "required": true
+    },
+    "idTorre": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

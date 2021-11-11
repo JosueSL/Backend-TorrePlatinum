@@ -1,0 +1,30 @@
+{
+  "name": "MedidorTorre",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID": {
+      "type": "number",
+      "id": true
+    },
+    "Torre": {
+      "type": "string",
+      "required": true
+    },
+    "Inicio": {
+      "type": "number",
+      "required": true
+    },
+    "Fin": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,26 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "TorreDB": {
+    "host": "egenpmesrv1\\ion",
+    "port": 1433,
+    "url": "",
+    "database": "ION_Data_Prueba",
+    "password": "control1*",
+    "name": "TorreDB",
+    "user": "sa",
+    "connector": "mssql"
+  },
+  "ION_DataConfigDB": {
+    "host": "egenpmesrv1\\ion",
+    "port": 1433,
+    "url": "",
+    "database": "ION_DataConfig",
+    "password": "control1*",
+    "name": "ION_DataConfigDB",
+    "user": "sa",
+    "connector": "mssql"
+  }
+}

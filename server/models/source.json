@@ -1,0 +1,46 @@
+{
+  "name": "Source",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID": {
+      "type": "number",
+      "id": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "NamespaceID": {
+      "type": "number",
+      "required": true
+    },
+    "SourceTypeID": {
+      "type": "number",
+      "required": true
+    },
+    "TimeZoneID": {
+      "type": "number",
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    },
+    "Signature": {
+      "type": "string",
+      "required": true
+    },
+    "DisplayName": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

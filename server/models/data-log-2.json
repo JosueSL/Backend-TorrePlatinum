@@ -1,0 +1,34 @@
+{
+  "name": "DataLog2",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID": {
+      "type": "number",
+      "id": true
+    },
+    "Value": {
+      "type": "number",
+      "required": true
+    },
+    "SourceID": {
+      "type": "number",
+      "required": true
+    },
+    "QuantityID": {
+      "type": "number",
+      "required": true
+    },
+    "TimestampUTC": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

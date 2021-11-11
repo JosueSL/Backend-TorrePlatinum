@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Quantity": {
+    "dataSource": "TorreDB",
+    "public": true
+  },
+  "Source": {
+    "dataSource": "TorreDB",
+    "public": true
+  },
+  "MedidorCliente": {
+    "dataSource": "ION_DataConfigDB",
+    "public": true
+  },
+  "MedidorTorre": {
+    "dataSource": "ION_DataConfigDB",
+    "public": true
+  },
+  "Consumo": {
+    "dataSource": "ION_DataConfigDB",
+    "public": true
+  },
+  "DataLog2": {
+    "dataSource": "TorreDB",
+    "public": true
+  },
+  "kWh": {
+    "dataSource": "ION_DataConfigDB",
+    "public": true
+  },
+  "Usuario": {
+    "dataSource": "ION_DataConfigDB",
+    "public": true
+  }
+}

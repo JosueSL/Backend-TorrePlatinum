@@ -1,0 +1,11 @@
+{
+    "user": "sa",
+    "password": "control1*",
+    "server": "egenpmesrv1\\ion",
+    "database": "ION_Data_Prueba",
+    "pool": {
+        "max": 10,
+        "min": 0,
+        "idleTimeoutMillis": 30000
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "MedidorCliente",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID": {
+      "type": "number",
+      "id": true
+    },
+    "Medidor": {
+      "type": "number",
+      "required": true
+    },
+    "Cliente": {
+      "type": "string",
+      "required": true
+    },
+    "Correo": {
+      "type": "string",
+      "required": false
+    },
+    "Saldo": {
+      "type": "number",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
